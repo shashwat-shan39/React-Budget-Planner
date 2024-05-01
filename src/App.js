@@ -10,7 +10,7 @@ import Search from "./components/Search";
 
 export default function App(){
     const [searchTxt, setSearchTxt] = useState('');
-
+    console.log("homepage");
     return(
         <AppProvider>
             <div className="container">
