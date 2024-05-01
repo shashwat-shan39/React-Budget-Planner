@@ -15,7 +15,7 @@ export default function ExpenseItem(props) {
             {props.name}
             <div>
                 <span className="badge bg-primary  mr-3">
-                    ${props.cost}   
+                    ₹{props.cost}   
                 </span>
                 <TiDelete className="cursor-pointer" style={{ marginLeft: '0.5rem' }} onClick={handleDelete} size='1.5em'></TiDelete>
             </div>

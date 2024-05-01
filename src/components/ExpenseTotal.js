@@ -9,8 +9,8 @@ export default function ExpenseTotal(){
 
     const alertType = totalExpenses > budget ? 'alert-danger' : 'alert-success';
     return (
-        <div className={`alert ${alertType}`}>
-            <span>Spent so far: ${totalExpenses}</span>
+        <div className={`alert ${alertType}`} style={{ paddingTop: '22px' , paddingBottom: '22px'}}>
+            <span style={{  paddingTop: '12px' , paddingBottom: '12px' }}>Spent so far: ₹{totalExpenses}</span>
         </div>
     );
 }
